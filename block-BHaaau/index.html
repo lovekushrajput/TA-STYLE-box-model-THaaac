@@ -1,0 +1,75 @@
+<!---
+### Create a page according to the layout shown below
+
+![Box Model Exercise 6](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-6.png)
+
+#### Problems for exercise 2 in the layout
+
+- Each parent container has width of 600px and border of 1px;
+- Each children box has width 180px and height 100px as well as margin of 10px;
+- Each child box which is having border has border-width 1px.
+- Note in the first container the boxes do not have any border.
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment3</title>
+    <link rel="stylesheet" href="Assets/stylesheet/style.css">
+</head>
+<body>
+    <header>
+     <h1>The Box Model, Box-Sizing & Box-shadow</h1>
+     </header>
+     <hr width="500px">
+     <main>
+         <section>
+             <h2>Exercise1</h2>
+             <div class="box"></div>
+             <div class="container">
+             <span class="circle content"></span>
+             <span>content</span>
+             <span class="circle padding"></span>
+             <span>padding</span>
+             <span class="circle border"></span>
+             <span>border</span>
+             <span class="circle margin"></span>
+             <span>margin</span>
+             </div>
+         </section>
+         <section>
+         <hr width="500px">
+         <h3>Exercise2</h3>
+         <P>no border on these boxes.</P>
+         <div class="parent">
+             <div class="box1"></div>
+             <div class="box1"></div>
+             <div class="box1"></div>
+            </div>
+         </section>
+         <section>
+             <hr width="550px">
+             <P class="p1">1px border on these boxes.</P>
+        <div class="parent1">
+                <span class="box4"></span>
+                <span class="box4"></span>
+                <div class="box4"></div>
+            </div>
+         </section>
+         <section>
+            <hr width="500px">
+            <P class="p2">1px border on these boxes but they are in same line.</P>
+            <div class="parent2">
+                <span class="box7"></span>
+                <span class="box7"></span>
+                <span class="box7"></span>
+               </div>
+            </section>
+     </main>
+</body>
+</html>
